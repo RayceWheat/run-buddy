@@ -76,8 +76,10 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
+
   }
   /* Hero Style End */
+
 
   /* Hero Form start */
   .hero-form { 
@@ -270,3 +272,4 @@ section {
   }
   
   /* REACH OUT STYLES END */
+
