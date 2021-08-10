@@ -12,3 +12,5 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made by Rayce Wheat
+
+### ©️2019 Run Buddy, Inc 
