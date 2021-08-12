@@ -47,7 +47,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+/* end of header/navbar */
 
+/* footer style */
 footer {
     background: #fce138;
     width: 100%;
@@ -71,7 +73,9 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* end of footer style */
 
+/* Style All section tags */
 section {
     padding: 60px;
 }
@@ -85,7 +89,7 @@ section {
     justify-content: center;
     flex-wrap: wrap;
   }
-  /* Hero Style End */
+
 
 .hero-cta {
     width: 35%;
@@ -144,6 +148,27 @@ section {
 }
 /* Hero Styles End */
 
+/* Section style start */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+/* section style end */
+
+/*What we do styles */
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -151,6 +176,12 @@ section {
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
+}
+/* what you do styles end */
+
+/*what you do styles start */
+.steps {
+    background: #fce138
 }
 
 .step {
@@ -162,11 +193,6 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    flex: 1 30%;
-}
-
-.steps {
-    background: #fce138
 }
 
 .step h3 {
@@ -205,23 +231,15 @@ section {
 .step-text{
     flex: 12;
 }
+/* what you do styles end */
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
+/* Meet the trainers start */
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .trainer {
@@ -229,14 +247,6 @@ section {
     background: #024e76;
     color: #fce138;
     flex: 1;
-}
-
-.trainers {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .trainer img {
@@ -261,14 +271,7 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
+/* Trainer end */
 
 /* REACH OUT STYLES START */
 .contact {
@@ -298,22 +301,18 @@ section {
     color: white;
   }
 
-  .contact-info h3 {
+.contact-info h3 {
     color: #fce138;
     font-size: 32px;
   }
   
-  .contact-info p, 
-  .contact-info address {
+.contact-info p, 
+.contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-  }
-  
-  .contact-info a {
-    color: #fce138;
-  }
+}
   
 .contact-form input,
 .contact-form textarea {
@@ -337,9 +336,20 @@ section {
     font-size: 16px;
 }
 
+.contact-info a {
+    color: #fce138;
+  }
   /* REACH OUT STYLES END */
 
-  /* Flex */ 
+  /* Utilities */ 
 .flex-row {
     display: flex;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
